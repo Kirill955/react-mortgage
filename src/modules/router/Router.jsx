@@ -1,15 +1,15 @@
-import React from "react";
-import { BrowserRouter } from "react-router-dom";
+import React from 'react'
+import { BrowserRouter } from 'react-router-dom'
 
-import { Navigation, RoutesContainer } from './containers';
+import { Navigation, RoutesContainer } from './containers'
 
 const Router = () => {
-    return ( 
+    return (
         <BrowserRouter>
-            <Navigation />        
+            <Navigation />
             <RoutesContainer />
         </BrowserRouter>
     )
-};
+}
 
-export default Router;
+export default Router
