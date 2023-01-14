@@ -6,8 +6,8 @@
     "extends": [
         "eslint:recommended",
         "plugin:react/recommended",
-        "prettier",
-        "airbnb"
+        "airbnb",
+        "prettier"
     ],
     "overrides": [],
     "parserOptions": {

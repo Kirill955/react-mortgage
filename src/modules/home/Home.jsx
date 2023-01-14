@@ -1,7 +1,14 @@
-import React from "react";
+import React from 'react'
 
-const Home = () => {
-    return <h1>Home</h1>
+import Box from '@mui/material/Box'
+import Typography from '@mui/material/Typography'
+
+function Home() {
+    return (
+        <Box>
+            <Typography component="h1">Home</Typography>
+        </Box>
+    )
 }
 
-export default Home;
+export default Home

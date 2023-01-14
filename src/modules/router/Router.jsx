@@ -3,7 +3,7 @@ import { BrowserRouter } from 'react-router-dom'
 
 import { Navigation, RoutesContainer } from './containers'
 
-const Router = () => {
+function Router() {
     return (
         <BrowserRouter>
             <Navigation />
